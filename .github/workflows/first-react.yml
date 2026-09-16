@@ -1,5 +1,8 @@
 name: "first-react-workflow"
-on: push
+on:
+  push:
+  pull_request:
+
 jobs:
   first-react:
     runs-on: "windows-latest"
